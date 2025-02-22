@@ -40,6 +40,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./chess_engine
-        asset_name: chess_engine
+        asset_path: ./chess-engine
+        asset_name: chess-engine
         asset_content_type: application/octet-stream

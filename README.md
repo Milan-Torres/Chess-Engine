@@ -1,5 +1,7 @@
 # Chess-Engine
- A basic chess engine made to be really fast
+ A basic chess engine made to be really fast.
+ This is an engine, not a game, it is the ability to check for mates and can prevent you from doing illegal moves but will not do so by default. If you run the binary you'll get a demonstration of its capabilities by selecting any piece to view all the legal moves.  
+ This engine was originally planned as an API for a lot of different things, unfortunately my hard drive has been wiped out and I lost most of the implementations.   
  
  > [!Note]
 > The code was written with the intention of being as fast as possible and as such, it is often not that readable.
